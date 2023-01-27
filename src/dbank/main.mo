@@ -39,7 +39,7 @@ actor DBank {
       currentValue -= amount;
       Debug.print(debug_show (currentValue));
     } else {
-      Debug.print("Amount too large, currentValue less than zero.");
+      Debug.print("Amount too large, currentValue is less than zero.");
     };
   };
 
